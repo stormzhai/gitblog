@@ -5,4 +5,5 @@ My personal blog using issues and GitHub Actions (随意转载，无需署名)
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 最近更新
+- [开票二维码的实现](https://github.com/stormzhai/gitblog/issues/2)--2022-01-13
 - [五笔字根表](https://github.com/stormzhai/gitblog/issues/1)--2021-12-20
