@@ -1,8 +1,84 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/stormzhai/gitblog</id><title>RSS feed of stormzhai's gitblog</title><updated>2022-03-02T04:49:11.026045+00:00</updated><author><name>stormzhai</name><email>stormzhai@126.com</email></author><link href="https://github.com/stormzhai/gitblog"/><link href="https://raw.githubusercontent.com/stormzhai/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/stormzhai/gitblog/issues/4</id><title>一年之计：如何构建知识体系？</title><updated>2022-03-02T04:49:11.237860+00:00</updated><content type="html"><![CDATA[<p><a href="https://mp.weixin.qq.com/s/we4iZo_o8bG3qtlvJBp9qQ">https://mp.weixin.qq.com/s/we4iZo_o8bG3qtlvJBp9qQ</a></p>
-]]></content><link href="https://github.com/stormzhai/gitblog/issues/4" rel="alternate"/><published>2022-03-02T04:46:43+00:00</published></entry><entry><id>https://github.com/stormzhai/gitblog/issues/3</id><title>SpringBoot 如何进行限流？老鸟们都这么玩的！</title><updated>2022-03-02T04:49:11.349759+00:00</updated><content type="html"><![CDATA[<p><a href="https://mp.weixin.qq.com/s/ZLAM-qxglb0FO4P3krKxiQ">https://mp.weixin.qq.com/s/ZLAM-qxglb0FO4P3krKxiQ</a></p>
-]]></content><link href="https://github.com/stormzhai/gitblog/issues/3" rel="alternate"/><published>2022-01-14T01:26:40+00:00</published></entry><entry><id>https://github.com/stormzhai/gitblog/issues/2</id><title>开票二维码的实现</title><updated>2022-03-02T04:49:11.447662+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.jianshu.com/p/aa7634d9e7bd?utm_campaign=maleskine...&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">https://www.jianshu.com/p/aa7634d9e7bd?utm_campaign=maleskine...&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation</a></p>
-]]></content><link href="https://github.com/stormzhai/gitblog/issues/2" rel="alternate"/><published>2022-01-13T04:38:26+00:00</published></entry><entry><id>https://github.com/stormzhai/gitblog/issues/1</id><title>五笔字根表</title><updated>2022-03-02T04:49:11.549332+00:00</updated><content type="html"><![CDATA[<p><img src="https://gitee.com/stormzhai/pics/raw/master/images/%E4%BA%94%E7%AC%94%E5%AD%97%E6%A0%B9%E5%9B%BE%E6%89%93%E5%8D%B0.jpg" alt="" /></p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/stormzhai/gitblog</id><title>RSS feed of stormzhai's gitblog</title><updated>2022-03-16T01:04:10.363041+00:00</updated><author><name>stormzhai</name><email>stormzhai@126.com</email></author><link href="https://github.com/stormzhai/gitblog"/><link href="https://raw.githubusercontent.com/stormzhai/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/stormzhai/gitblog/issues/5</id><title>高绩效教练(转）</title><updated>2022-03-16T01:04:10.594808+00:00</updated><content type="html"><![CDATA[<p>S【背景】:技术和全球化给组织与个人带来了天翻地覆的变化。随着AI等技术的到来，未来的变化将是指数级的。
+C【冲突】:我们无法预测未来的组织形态，但可以预知的是，组织中的领导方式、同事关系、工作方式，个人的成长和职业发展，将会发生根本性的改变。
+Q【问题】:我们如何面对？
+A【答案】:教练技术，是未来组织发展和个人成长的重要趋势之一。
+→教练领域的奠基之作+扛鼎之作→《高绩效教练》
+→领导力工具书（GROW模型）</p>
+<p>下面用三个关键问题开启本书:
+1、为什么企业家需要（高）绩效教练？
+2、企业家如何通过（高）绩效教练提升领导力？
+3、（高）绩效教练·问题工具包</p>
+<p>一、为什么企业家需要（高）绩效教练？
+【先看一个例子】:
+以中国足球为例，为什么中国足球历经波折还是进展缓慢，以至于主要教练职位需要“洋人”支持？究其因，我们需要一套教练体系，一套能够真正让团队成员买账并践行的体系。
+【原因一:激活员工】
+·绩效＝潜能-干扰
+·教练 =开发潜能+减少干扰⇒提升绩效。
+✔绩效教练:能够激活员工（企业挖掘员工潜能+员工自主承担责任），形成一种业绩、员工和企业三赢的可持续发展。</p>
+<p>【原因二:激活自身】
+✔通过绩效教练，进行自身领导力提升。</p>
+<p>二、企业家如何通过绩效教练提升领导力？
+【两个基础技能+一个核心技能】
+1、基础技能:强有力的问题
+开放式问题+聚焦方案。不带引导、不带评判。
+✘“你到底为什么要这样做？”
+✔“可能会有什么问题？”</p>
+<p>2、基础技能:积极倾听
+·重述、复述和总结对方的话
+·不评判、不批判
+·用心倾听（感受对方语音语调、面部表情、肢体动作）</p>
+<p>3、核心技能:GROW模型
+GROW模型:教练式对话的基本结构
+●目标设定（Goal）:包含本次教练对话的目标，以及设定教练的短期目标和长期目标。
+●现状分析（Reality）:探索当前的状况。
+●方案选择（Options）:可供选择的策略或行动方案。
+●该做什么（What），何时（When），谁做（Who）以及这样做的意愿（Will）。</p>
+<p>3.1【目标设定】:
+目标设定与行动
+（涉及）SMART原则：
+● 具体的（Specific）
+● 可衡量的（Measurable）
+● 一致同意的（Agreed）
+● 现实的（Realistic）
+● 有时限的（Timeframed）</p>
+<p>3.2【现状分析】:
+客观性+描述性（不评判）
+eg:一个有价值的现状问题:“到目前为止你已经采取了哪些行动？”以及“那个行动的结果怎样？”</p>
+<p>3.3【方案选择】:
+罗列出尽可能多的可供选择的方案，在众多方案中选最优的方案。
+当学员陷入负面假设的时候，一个好的教练应该通过提问，让学员想象在各种条件下，该怎么处理问题。</p>
+<p>3.4【行动意愿】:
+教练的谈话的重点从讨论转为决策——该做什么，什么时候做，谁来做，这是谁的意愿。在这一阶段，将形成一个计划，并直接推进行动。这里的行动包括了时间、地点、人物等要素。
+这个阶段，教练的提问通常是：你要做什么？你打算什么时候去做？这个行动会实现你的目标吗？等等。</p>
+<p>三、GROW模型·教练问题工具包
+目标→现状→选择→意愿
+【目标】:
+● 想象3个月后，所有的障碍都被扫清，你已经实现了你的目标：
+——你看到/听到/感觉到什么？
+——具体是什么样的？
+——有哪些不同？
+● 你需要什么样的行为才能达到这个目标？</p>
+<p>【现状】:
+● 目前正在发生什么？
+● 你在做的哪些事情支持你实现自己的目标？
+● 你在做的哪些事情阻碍你的目标的达成？</p>
+<p>【选择】:
+● 你有什么选择？
+● 还有别的什么吗？
+● 如果还有其他，会是什么？
+● 过去的经验证明什么是可行的？</p>
+<p>【意愿】:
+● 你具体打算什么时候开始？
+● 你需要什么支持？从谁那里能获得支持？
+● 你下一步要做什么？
+● 你如何知道它可行？
+● 你会做些什么来确保这一切发生？</p>
+<p><a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx8ffef4695bc01c1b&amp;redirect_uri=https%3A%2F%2Fweread.qq.com%2Fwrpage%2Fbook%2Freview%2F6818761%5F76I387rKw&amp;response_type=code&amp;scope=snsapi_base&amp;state=6818761_76I387rKw#wechat_redirect">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx8ffef4695bc01c1b&amp;redirect_uri=https%3A%2F%2Fweread.qq.com%2Fwrpage%2Fbook%2Freview%2F6818761%5F76I387rKw&amp;response_type=code&amp;scope=snsapi_base&amp;state=6818761_76I387rKw#wechat_redirect</a></p>
+]]></content><link href="https://github.com/stormzhai/gitblog/issues/5" rel="alternate"/><published>2022-03-16T01:01:47+00:00</published></entry><entry><id>https://github.com/stormzhai/gitblog/issues/4</id><title>一年之计：如何构建知识体系？</title><updated>2022-03-16T01:04:10.724618+00:00</updated><content type="html"><![CDATA[<p><a href="https://mp.weixin.qq.com/s/we4iZo_o8bG3qtlvJBp9qQ">https://mp.weixin.qq.com/s/we4iZo_o8bG3qtlvJBp9qQ</a></p>
+]]></content><link href="https://github.com/stormzhai/gitblog/issues/4" rel="alternate"/><published>2022-03-02T04:46:43+00:00</published></entry><entry><id>https://github.com/stormzhai/gitblog/issues/3</id><title>SpringBoot 如何进行限流？老鸟们都这么玩的！</title><updated>2022-03-16T01:04:10.832236+00:00</updated><content type="html"><![CDATA[<p><a href="https://mp.weixin.qq.com/s/ZLAM-qxglb0FO4P3krKxiQ">https://mp.weixin.qq.com/s/ZLAM-qxglb0FO4P3krKxiQ</a></p>
+]]></content><link href="https://github.com/stormzhai/gitblog/issues/3" rel="alternate"/><published>2022-01-14T01:26:40+00:00</published></entry><entry><id>https://github.com/stormzhai/gitblog/issues/2</id><title>开票二维码的实现</title><updated>2022-03-16T01:04:10.944412+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.jianshu.com/p/aa7634d9e7bd?utm_campaign=maleskine...&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">https://www.jianshu.com/p/aa7634d9e7bd?utm_campaign=maleskine...&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation</a></p>
+]]></content><link href="https://github.com/stormzhai/gitblog/issues/2" rel="alternate"/><published>2022-01-13T04:38:26+00:00</published></entry><entry><id>https://github.com/stormzhai/gitblog/issues/1</id><title>五笔字根表</title><updated>2022-03-16T01:04:11.063864+00:00</updated><content type="html"><![CDATA[<p><img src="https://gitee.com/stormzhai/pics/raw/master/images/%E4%BA%94%E7%AC%94%E5%AD%97%E6%A0%B9%E5%9B%BE%E6%89%93%E5%8D%B0.jpg" alt="" /></p>
 <p>G 王旁青头戋（兼）五一（“兼”与“戋”同音）
 F 土士二干十寸雨 （可别忘了革字底）
 D 大犬三羊古石厂 (羊底龙头套上套下)
