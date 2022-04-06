@@ -1,5 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/stormzhai/gitblog</id><title>RSS feed of stormzhai's gitblog</title><updated>2022-03-16T01:04:10.363041+00:00</updated><author><name>stormzhai</name><email>stormzhai@126.com</email></author><link href="https://github.com/stormzhai/gitblog"/><link href="https://raw.githubusercontent.com/stormzhai/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/stormzhai/gitblog/issues/5</id><title>高绩效教练(转）</title><updated>2022-03-16T01:04:10.594808+00:00</updated><content type="html"><![CDATA[<p>S【背景】:技术和全球化给组织与个人带来了天翻地覆的变化。随着AI等技术的到来，未来的变化将是指数级的。
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/stormzhai/gitblog</id><title>RSS feed of stormzhai's gitblog</title><updated>2022-04-06T11:35:05.030766+00:00</updated><author><name>stormzhai</name><email>stormzhai@126.com</email></author><link href="https://github.com/stormzhai/gitblog"/><link href="https://raw.githubusercontent.com/stormzhai/gitblog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/stormzhai/gitblog/issues/6</id><title>postgresql 快速入门</title><updated>2022-04-06T11:35:05.287664+00:00</updated><content type="html"><![CDATA[<h1>1 安装</h1>
+<p>sudo yum install -y <a href="https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm">https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm</a></p>
+<p>sudo yum install -y postgresql14-server</p>
+<p>sudo /usr/pgsql-14/bin/postgresql-14-setup initdb
+sudo systemctl enable postgresql-14
+sudo systemctl start postgresql-14</p>
+<h1>2 远程访问</h1>
+<p>vim /var/lib/pgsql/14/data/pg_hba.conf
+添加
+host    all             all             0.0.0.0/0               md5</p>
+<p>vim /var/lib/pgsql/14/data/postgresql.conf</p>
+<p>listen_addresses = '*'      # 删掉注释</p>
+<p>systemctl restart postgresql-14</p>
+<h1>3 客户端访问</h1>
+<p>psql -U postgres -d test -h 127.0.0.1 -p xxxx</p>
+<h1>4 修改密码</h1>
+<p>alter user postgres with password ‘此处填写登陆密码’;</p>
+<h1>5 创建角色</h1>
+<p>create role root;
+alter role root login superuser; </p>
+<p>select rolname from pg_roles;</p>
+<h1>6 基本命令</h1>
+<p>\q 退出
+\l 列出所有库
+\c 切换数据库
+\du 查看用户
+\d 查看表结构</p>
+]]></content><link href="https://github.com/stormzhai/gitblog/issues/6" rel="alternate"/><published>2022-04-06T11:32:43+00:00</published></entry><entry><id>https://github.com/stormzhai/gitblog/issues/5</id><title>高绩效教练(转）</title><updated>2022-04-06T11:35:05.422853+00:00</updated><content type="html"><![CDATA[<p>S【背景】:技术和全球化给组织与个人带来了天翻地覆的变化。随着AI等技术的到来，未来的变化将是指数级的。
 C【冲突】:我们无法预测未来的组织形态，但可以预知的是，组织中的领导方式、同事关系、工作方式，个人的成长和职业发展，将会发生根本性的改变。
 Q【问题】:我们如何面对？
 A【答案】:教练技术，是未来组织发展和个人成长的重要趋势之一。
@@ -75,10 +102,10 @@ eg:一个有价值的现状问题:“到目前为止你已经采取了哪些行�
 ● 你如何知道它可行？
 ● 你会做些什么来确保这一切发生？</p>
 <p><a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx8ffef4695bc01c1b&amp;redirect_uri=https%3A%2F%2Fweread.qq.com%2Fwrpage%2Fbook%2Freview%2F6818761%5F76I387rKw&amp;response_type=code&amp;scope=snsapi_base&amp;state=6818761_76I387rKw#wechat_redirect">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx8ffef4695bc01c1b&amp;redirect_uri=https%3A%2F%2Fweread.qq.com%2Fwrpage%2Fbook%2Freview%2F6818761%5F76I387rKw&amp;response_type=code&amp;scope=snsapi_base&amp;state=6818761_76I387rKw#wechat_redirect</a></p>
-]]></content><link href="https://github.com/stormzhai/gitblog/issues/5" rel="alternate"/><published>2022-03-16T01:01:47+00:00</published></entry><entry><id>https://github.com/stormzhai/gitblog/issues/4</id><title>一年之计：如何构建知识体系？</title><updated>2022-03-16T01:04:10.724618+00:00</updated><content type="html"><![CDATA[<p><a href="https://mp.weixin.qq.com/s/we4iZo_o8bG3qtlvJBp9qQ">https://mp.weixin.qq.com/s/we4iZo_o8bG3qtlvJBp9qQ</a></p>
-]]></content><link href="https://github.com/stormzhai/gitblog/issues/4" rel="alternate"/><published>2022-03-02T04:46:43+00:00</published></entry><entry><id>https://github.com/stormzhai/gitblog/issues/3</id><title>SpringBoot 如何进行限流？老鸟们都这么玩的！</title><updated>2022-03-16T01:04:10.832236+00:00</updated><content type="html"><![CDATA[<p><a href="https://mp.weixin.qq.com/s/ZLAM-qxglb0FO4P3krKxiQ">https://mp.weixin.qq.com/s/ZLAM-qxglb0FO4P3krKxiQ</a></p>
-]]></content><link href="https://github.com/stormzhai/gitblog/issues/3" rel="alternate"/><published>2022-01-14T01:26:40+00:00</published></entry><entry><id>https://github.com/stormzhai/gitblog/issues/2</id><title>开票二维码的实现</title><updated>2022-03-16T01:04:10.944412+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.jianshu.com/p/aa7634d9e7bd?utm_campaign=maleskine...&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">https://www.jianshu.com/p/aa7634d9e7bd?utm_campaign=maleskine...&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation</a></p>
-]]></content><link href="https://github.com/stormzhai/gitblog/issues/2" rel="alternate"/><published>2022-01-13T04:38:26+00:00</published></entry><entry><id>https://github.com/stormzhai/gitblog/issues/1</id><title>五笔字根表</title><updated>2022-03-16T01:04:11.063864+00:00</updated><content type="html"><![CDATA[<p><img src="https://gitee.com/stormzhai/pics/raw/master/images/%E4%BA%94%E7%AC%94%E5%AD%97%E6%A0%B9%E5%9B%BE%E6%89%93%E5%8D%B0.jpg" alt="" /></p>
+]]></content><link href="https://github.com/stormzhai/gitblog/issues/5" rel="alternate"/><published>2022-03-16T01:01:47+00:00</published></entry><entry><id>https://github.com/stormzhai/gitblog/issues/4</id><title>一年之计：如何构建知识体系？</title><updated>2022-04-06T11:35:05.543808+00:00</updated><content type="html"><![CDATA[<p><a href="https://mp.weixin.qq.com/s/we4iZo_o8bG3qtlvJBp9qQ">https://mp.weixin.qq.com/s/we4iZo_o8bG3qtlvJBp9qQ</a></p>
+]]></content><link href="https://github.com/stormzhai/gitblog/issues/4" rel="alternate"/><published>2022-03-02T04:46:43+00:00</published></entry><entry><id>https://github.com/stormzhai/gitblog/issues/3</id><title>SpringBoot 如何进行限流？老鸟们都这么玩的！</title><updated>2022-04-06T11:35:05.654808+00:00</updated><content type="html"><![CDATA[<p><a href="https://mp.weixin.qq.com/s/ZLAM-qxglb0FO4P3krKxiQ">https://mp.weixin.qq.com/s/ZLAM-qxglb0FO4P3krKxiQ</a></p>
+]]></content><link href="https://github.com/stormzhai/gitblog/issues/3" rel="alternate"/><published>2022-01-14T01:26:40+00:00</published></entry><entry><id>https://github.com/stormzhai/gitblog/issues/2</id><title>开票二维码的实现</title><updated>2022-04-06T11:35:05.766168+00:00</updated><content type="html"><![CDATA[<p><a href="https://www.jianshu.com/p/aa7634d9e7bd?utm_campaign=maleskine...&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation">https://www.jianshu.com/p/aa7634d9e7bd?utm_campaign=maleskine...&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation</a></p>
+]]></content><link href="https://github.com/stormzhai/gitblog/issues/2" rel="alternate"/><published>2022-01-13T04:38:26+00:00</published></entry><entry><id>https://github.com/stormzhai/gitblog/issues/1</id><title>五笔字根表</title><updated>2022-04-06T11:35:05.883819+00:00</updated><content type="html"><![CDATA[<p><img src="https://gitee.com/stormzhai/pics/raw/master/images/%E4%BA%94%E7%AC%94%E5%AD%97%E6%A0%B9%E5%9B%BE%E6%89%93%E5%8D%B0.jpg" alt="" /></p>
 <p>G 王旁青头戋（兼）五一（“兼”与“戋”同音）
 F 土士二干十寸雨 （可别忘了革字底）
 D 大犬三羊古石厂 (羊底龙头套上套下)
