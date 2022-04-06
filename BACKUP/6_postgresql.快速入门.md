@@ -1,6 +1,8 @@
 # [postgresql 快速入门](https://github.com/stormzhai/gitblog/issues/6)
 
 # 1 安装
+sudo yum -y install gcc gcc-c++ kernel-devel make zlib zlib-devel libffi-devel openssl-devel git python3-devel postgresql-devel*
+
 sudo yum install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
 
 sudo yum install -y postgresql14-server
